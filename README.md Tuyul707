@@ -32,34 +32,34 @@ npm i node-telegram-bot-api
 ## 🚀 Usage
 
 ```js
-const TelegramBot = require('node-telegram-bot-api');
+const TelegramBot = require('node-telegram-bot-api');@Tuyullbot
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = 'YOUR_TELEGRAM_BOT_TOKEN';
+const token = 'YOUR_TELEGRAM_BOT_TOKEN';6031736589:AAHWFi6qMKa71cS7RZ6Ia88jbDZj9oYaRfo
 
 // Create a bot that uses 'polling' to fetch new updates
-const bot = new TelegramBot(token, {polling: true});
+const bot = new TelegramBot(token,6031736589 {polling: true});@Tuyullbot
 
 // Matches "/echo [whatever]"
-bot.onText(/\/echo (.+)/, (msg, match) => {
+bot.onText(/\/echo (.+)/, (msg, match) => {@Jedle707
   // 'msg' is the received Message from Telegram
   // 'match' is the result of executing the regexp above on the text content
   // of the message
 
-  const chatId = msg.chat.id;
+  const chatId = msg.chat.id;5779700223
   const resp = match[1]; // the captured "whatever"
 
   // send back the matched "whatever" to the chat
-  bot.sendMessage(chatId, resp);
+  bot.sendMessage(chatId,5779700223 resp);@Tuyullbot
 });
 
 // Listen for any kind of message. There are different kinds of
 // messages.
-bot.on('message', (msg) => {
-  const chatId = msg.chat.id;
+bot.on('message',@Tuyullbot (msg) => {
+  const chatId = msg.chat.id;5779700223
 
   // send a message to the chat acknowledging receipt of their message
-  bot.sendMessage(chatId, 'Received your message');
+  bot.sendMessage(chatId,5779700223 'Received your message');@Jedle707
 });
 ```
 
